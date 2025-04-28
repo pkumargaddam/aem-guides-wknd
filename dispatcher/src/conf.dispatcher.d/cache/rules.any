@@ -5,3 +5,12 @@
 #
 
 $include "./default_rules.any"
+
+/0120 {
+    /glob "/libs/granite/security/currentuser.json"
+    /type "deny"
+}
+/0121 {
+    /glob "/bin/userinfo.json"
+    /type "deny"
+}

@@ -36,3 +36,7 @@ $include "./default_filters.any"
 # ContextHub
 /0200 { /type "allow" /url "*/contexthub.pagedata.json" }
 /0201 { /type "allow" /url "/home/users/*.infinity.json" }
+
+
+# Edge Compute demo changes
+/0202 { /type "allow" /method 'GET' /url "/bin/userinfo.json" /extension "json"}
